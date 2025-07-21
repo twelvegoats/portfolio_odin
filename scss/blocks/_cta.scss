@@ -1,0 +1,33 @@
+@use "../utils/variables" as *;
+@use "../base/resets" as *;
+@use "../base/base" as *;
+
+.cta {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        height: 10.75rem;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $secondary-color;
+        border-radius: 1.5rem;
+        gap: 6rem;
+    }
+
+    &__text-container {
+        color: #fff;
+    }
+
+    &__button {
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 0.25rem;
+        background-color: transparent;
+        padding: 0.313rem 1.5rem;
+    }
+}
