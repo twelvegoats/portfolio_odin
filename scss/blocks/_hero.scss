@@ -1,0 +1,30 @@
+@use "../utils/variables" as *;
+@use "../base/resets";
+@use "../base/base";
+
+.hero {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    height: 50vh;
+
+    &__title {
+        font-size: 3rem;
+        color: #fff;
+        width: 21.75rem;
+    }
+
+    &__description {
+        width: 21.75rem;
+        margin-bottom: 1rem;
+        color: $quote-background-color;
+        font-size: 1.125rem;
+    }
+
+    &__image {
+        width: 31.25rem;
+        height: auto;
+    }
+}
