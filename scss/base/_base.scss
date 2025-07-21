@@ -1,0 +1,22 @@
+@use "../utils/variables" as *;
+@use "../base/resets" as *;
+
+body {
+    line-height: $line-height-base; // Set base line height
+    font-family: $font-stack; // Set base font stack
+    font-size: $font-size-base; // Set base font size
+}
+
+a {
+    text-decoration: none; // Remove underline from links
+    color: $quote-background-color;
+}
+
+ul {
+    list-style: none; // Remove default list styles;
+}
+
+h1 {
+    font-size: $font-size-large; // Set large font size for headings
+    margin-bottom: 1rem; // Add bottom margin to headings
+}
