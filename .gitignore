@@ -21,3 +21,6 @@ dist/
 # Other
 *.tmp
 *.swp
+
+# Ignore all JSON files
+*.json
