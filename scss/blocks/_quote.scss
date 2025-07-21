@@ -1,0 +1,25 @@
+@use "../utils/variables" as *;
+@use "../base/resets" as *;
+@use "../base/base" as *;
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $quote-background-color;
+    height: 60vh;
+
+    &__text {
+        font-size: $font-size-medium;
+        font-weight: 100;
+        font-style: italic;
+        color: $quote-text-color;
+        width: 60%;
+    }
+
+    &__author {
+        width: 60%;
+        text-align: right;
+    }
+}
