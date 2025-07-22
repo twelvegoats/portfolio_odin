@@ -60,6 +60,7 @@ h1 {
   align-items: center;
   gap: 6rem;
   height: 100%;
+  padding: 2rem;
 }
 .hero__title {
   font-size: 3rem;
@@ -84,6 +85,7 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 2.5rem;
 }
 .info__title {
   font-size: 36px;
@@ -121,6 +123,7 @@ h1 {
   align-items: center;
   background-color: #E5E7EB;
   height: 100%;
+  padding: 12.5rem 0;
 }
 .quote__text {
   font-size: 36px;
@@ -139,6 +142,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem;
 }
 .cta__container {
   height: 10.75rem;
@@ -168,4 +172,5 @@ h1 {
   align-items: center;
   height: 100%;
   color: #fff;
+  padding: 2rem;
 }
